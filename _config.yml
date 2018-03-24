@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: circleci.api.streamdata.gallery
+title: Streamdata Gallery CircleCI
+url: circleci.streamdata.gallery
 tag: CircleCI
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: circleci
 github_branch: master
 collections:
