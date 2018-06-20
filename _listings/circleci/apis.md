@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circ
 x-kinRank: "8"
 x-alexaRank: "15983"
 tags: CircleCI
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/circleci/master/_listings/circleci/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +17,7 @@ apis:
   x-api-slug: circleci
   description: Provides information about the signed in user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//me
   tags: Me
   properties:
@@ -29,7 +29,7 @@ apis:
   x-api-slug: circleci
   description: Build summary for each of the last 30 builds for a single git repo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}
   tags: Project, Username, Project
   properties:
@@ -41,7 +41,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}
   tags: Parameters, Project, Username, Project
   properties:
@@ -53,7 +53,7 @@ apis:
   x-api-slug: circleci
   description: Triggers a new build, returns a summary of the build.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}
   tags: Project, Username, Project
   properties:
@@ -63,7 +63,7 @@ apis:
   x-api-slug: circleci
   description: Delete project username project build cache.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/build-cache
   tags: Project, Username, Project, Build, Cache
   properties:
@@ -73,7 +73,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project build cache.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/build-cache
   tags: Parameters, Project, Username, Project, Build, Cache
   properties:
@@ -85,7 +85,7 @@ apis:
   x-api-slug: circleci
   description: Get project username project checkout key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/checkout-key
   tags: Project, Username, Project, Checkout, Key
   properties:
@@ -95,7 +95,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project checkout key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/checkout-key
   tags: Parameters, Project, Username, Project, Checkout, Key
   properties:
@@ -109,7 +109,7 @@ apis:
     Creates a new checkout key.
     Only usable with a user API token.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/checkout-key
   tags: Project, Username, Project, Checkout, Key
   properties:
@@ -119,7 +119,7 @@ apis:
   x-api-slug: circleci
   description: Delete project username project checkout key fingerprint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/checkout-key/{fingerprint}
   tags: Project, Username, Project, Checkout, Key, Fingerprint
   properties:
@@ -129,7 +129,7 @@ apis:
   x-api-slug: circleci
   description: Get project username project checkout key fingerprint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/checkout-key/{fingerprint}
   tags: Project, Username, Project, Checkout, Key, Fingerprint
   properties:
@@ -139,7 +139,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project checkout key fingerprint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/checkout-key/{fingerprint}
   tags: Parameters, Project, Username, Project, Checkout, Key, Fingerprint
   properties:
@@ -151,7 +151,7 @@ apis:
   x-api-slug: circleci
   description: Lists the environment variables for :project
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/envvar
   tags: Project, Username, Project, Envvar
   properties:
@@ -161,7 +161,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project envvar.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/envvar
   tags: Parameters, Project, Username, Project, Envvar
   properties:
@@ -173,7 +173,7 @@ apis:
   x-api-slug: circleci
   description: Add project username project envvar.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/envvar
   tags: Project, Username, Project, Envvar
   properties:
@@ -183,7 +183,7 @@ apis:
   x-api-slug: circleci
   description: Deletes the environment variable named ':name'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/envvar/{name}
   tags: Project, Username, Project, Envvar, Name
   properties:
@@ -193,7 +193,7 @@ apis:
   x-api-slug: circleci
   description: Gets the hidden value of environment variable :name
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/envvar/{name}
   tags: Project, Username, Project, Envvar, Name
   properties:
@@ -203,7 +203,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project envvar name.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/envvar/{name}
   tags: Parameters, Project, Username, Project, Envvar, Name
   properties:
@@ -215,7 +215,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project ssh key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/ssh-key
   tags: Parameters, Project, Username, Project, Ssh, Key
   properties:
@@ -228,7 +228,7 @@ apis:
   description: Create an ssh key used to access external systems that require SSH
     key-based authentication
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/ssh-key
   tags: Project, Username, Project, Ssh, Key
   properties:
@@ -238,7 +238,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project tree branch.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/tree/{branch}
   tags: Parameters, Project, Username, Project, Tree, Branch
   properties:
@@ -254,7 +254,7 @@ apis:
 
     Note: For more about build parameters, read about [using parameterized builds](https://circleci.com/docs/parameterized-builds/)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/tree/{branch}
   tags: Project, Username, Project, Tree, Branch
   properties:
@@ -266,7 +266,7 @@ apis:
     Full details for a single build. The response includes all of the fields from the build summary.
     This is also the payload for the [notification webhooks](/docs/configuration/#notify), in which case this object is the value to a key named 'payload'.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}
   tags: Project, Username, Project, Build, Num
   properties:
@@ -276,7 +276,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project build num.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}
   tags: Parameters, Project, Username, Project, Build, Num
   properties:
@@ -288,7 +288,7 @@ apis:
   x-api-slug: circleci
   description: Get project username project build num artifacts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/artifacts
   tags: Project, Username, Project, Build, Num, Artifacts
   properties:
@@ -300,7 +300,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project build num artifacts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/artifacts
   tags: Parameters, Project, Username, Project, Build, Num, Artifacts
   properties:
@@ -312,7 +312,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project build num cancel.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/cancel
   tags: Parameters, Project, Username, Project, Build, Num, Cancel
   properties:
@@ -324,7 +324,7 @@ apis:
   x-api-slug: circleci
   description: Cancels the build, returns a summary of the build.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/cancel
   tags: Project, Username, Project, Build, Num, Cancel
   properties:
@@ -334,7 +334,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project build num retry.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/retry
   tags: Parameters, Project, Username, Project, Build, Num, Retry
   properties:
@@ -346,7 +346,7 @@ apis:
   x-api-slug: circleci
   description: Retries the build, returns a summary of the new build.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/retry
   tags: Project, Username, Project, Build, Num, Retry
   properties:
@@ -358,7 +358,7 @@ apis:
     Provides test metadata for a build
     Note: [Learn how to set up your builds to collect test metadata](https://circleci.com/docs/test-metadata/)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/tests
   tags: Project, Username, Project, Build, Num, Tests
   properties:
@@ -368,7 +368,7 @@ apis:
   x-api-slug: circleci
   description: Parameters project username project build num tests.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/tests
   tags: Parameters, Project, Username, Project, Build, Num, Tests
   properties:
@@ -381,7 +381,7 @@ apis:
   description: List of all the projects you're following on CircleCI, with build information
     organized by branch.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//projects
   tags: Projects
   properties:
@@ -393,7 +393,7 @@ apis:
   x-api-slug: circleci
   description: Build summary for each of the last 30 recent builds, ordered by build_num.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//recent-builds
   tags: Recent, Builds
   properties:
@@ -405,7 +405,7 @@ apis:
   x-api-slug: circleci
   description: Adds your Heroku API key to CircleCI, takes apikey as form param name.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1//user/heroku-key
   tags: User, Heroku, Key
   properties:
@@ -417,7 +417,7 @@ apis:
     easy for teams of all sizes to rapidly build and release quality software at scale.  Build
     for Linux, macOS, and Android, in the cloud or behind your firewall.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: https://circleci.com/
+  humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1
   tags: CircleCI
   properties:
@@ -464,6 +464,8 @@ x-common:
   url: https://circleci.com/terms-of-service/
 - type: x-twitter
   url: https://twitter.com/circleci
+- type: x-website
+  url: http://circleci.com
 - type: x-website
   url: https://circleci.com/
 include: []
