@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - CircleCI",
+	"description": "This is a repository of circleci APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/circleci.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://circleci.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "CircleCI",
+			"x-api-slug": "circleci",
+			"description": "CircleCI???s continuous integration and delivery platform makes it easy for teams of all sizes to rapidly build and release quality software at scale.  Build for Linux, macOS, and Android, in the cloud or behind your firewall.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg",
+			"humanURL": "http://circleci.com",
+			"baseURL": "https://circleci.com//api/v1",
+			"tags": "CircleCI",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/circleci/master/_listings/circleci/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "CircleCI",
+	"include": [
+		{
+			"name": "CircleCI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/circleci/master/_listings/circleci/apis.yaml"
+		}
+	]
+}
